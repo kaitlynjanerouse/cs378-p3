@@ -1,0 +1,95 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh;
+  margin-top: 5vh;
+}
+
+.logo {
+  max-width: 15vh;
+  max-height: 15vh;
+}
+
+.first-tag-line{
+  text-align: center;
+  color: rgba(15, 54, 111, 0.543);
+  font: italic 1.75vh 'Apple Chancery', cursive;
+}
+
+.second-tag-line {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.menu-item {
+  padding: 2vh;
+  justify-content: center;
+}
+
+.item-image {
+  width: 100%;
+  max-width: 15vh;
+  max-height: 12vh;
+  border-radius: 1vh;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-title {
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.item-description {
+  font-size: 1.25vh;
+  padding-top: 1vh;
+  font-weight: 150;
+}
+
+.item-price {
+  font-size: 1.25vh;
+  text-align: left;
+  padding: 0vh;   
+  padding-top: 1vh;
+  padding-left: 0vh !important;
+}
+
+.order-total{
+  text-align: center;
+  border-radius: 1vh;
+  font: 1.75vh 'Times New Roman', cursive;
+}
+
+.button-container {
+  font-size: 1.25vh;
+  padding: 0vh;
+  padding-right: 1vh;
+  text-align: right;
+  padding-top: 1vh;
+}
+
+.item-button-style{
+  border-radius: 1vh;
+}
+
+.add-button-style {
+  background-color: rgba(94, 174, 194, 0.543);
+  border-radius: 1vh;
+  box-shadow: .25vh .25vh .25vh rgba(0, 0, 0, 0.3); 
+}
+
+.clear-button-style {
+  background-color: rgba(111, 111, 111, 0.543);
+  border-radius: 1vh;
+  box-shadow: .25vh .25vh .25vh rgba(0, 0, 0, 0.3); 
+}
